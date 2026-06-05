@@ -12,8 +12,8 @@ import { useEffect } from 'react'
  * 6. Impostare VITE_ADSENSE_ENABLED=true nelle variabili ambiente
  */
 
-const PUBLISHER_ID = 'ca-pub-XXXXXXXXXXXXXXXXXX'
-const ENABLED = import.meta.env.VITE_ADSENSE_ENABLED === 'true'
+const PUBLISHER_ID = 'ca-pub-5763360404152116'
+const ENABLED = true
 
 export default function AdBanner({ slot, format = 'auto', className = '' }) {
   useEffect(() => {
